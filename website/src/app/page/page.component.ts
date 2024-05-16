@@ -12,7 +12,7 @@ export class PageComponent implements OnInit {
     title: 'Home',
     subtitle: 'Welcome Home!',
     content: 'Some home content.',
-    image: 'assets/backdrop.jpg'
+    image: 'assets/poster.png'
   };
 
   constructor() { }
