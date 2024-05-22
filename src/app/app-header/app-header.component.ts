@@ -4,7 +4,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 
 @Component({
-  selector: 'app-app-header',
+  selector: 'app-header',
   standalone: true,
   imports: [
     MatIconModule,
