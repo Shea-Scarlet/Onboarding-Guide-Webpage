@@ -20,7 +20,8 @@ import { MatIconModule } from '@angular/material/icon';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatIconModule
     // other modules
   ],
   providers: [
