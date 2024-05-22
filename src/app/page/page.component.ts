@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import {MatCardContent, MatCardModule} from '@angular/material/card';
 
 @Component({
+  standalone: true,
   selector: 'app-page',
-  //standalone: true,
-  //imports: [],
+  imports: [MatCardModule, MatCardContent],
   templateUrl: './page.component.html',
   styleUrl: './page.component.scss'
 })
