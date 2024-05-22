@@ -7,6 +7,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { AppComponent } from './app.component'; // import AppComponent
 import { PageComponent } from './page/page.component'; // import PageComponent
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
