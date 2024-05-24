@@ -1,3 +1,24 @@
 .example-spacer {
     flex: 1 1 auto;
   }
+
+  .mat-toolbar {
+    background-color: white !important;
+    color: black !important; /* Adjust text color if needed */
+  }
+
+  .svg-container svg {
+    display: inline-block;
+    margin-right: 20px; // Adjust this value to increase or decrease the space
+  }
+  
+  .svg-container svg:last-child {
+    margin-right: 0; // Removes the margin from the last SVG
+  }
+
+  .divider {
+    height: 1px;
+    width: 100%;
+    background: var(--red-to-pink-to-purple-horizontal-gradient);
+    margin-block: 1.5rem;
+  }
