@@ -68,9 +68,9 @@
 
   .content {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     width: 100%;
-    max-width: 700px;
     margin-bottom: 3rem;
   }
 
@@ -170,7 +170,20 @@
     display: inline-block;
     margin-right: 20px; // Adjust this value to increase or decrease the space
   }
-  
+
   .svg-container svg:last-child {
     margin-right: 0; // Removes the margin from the last SVG
+  }
+
+
+  /** ---------------------------------- NEW ------------------------------------- */
+  .container {
+    margin: 0px 80px;
+  }
+
+
+  .section {
+    display: flex;
+    width: 100%;
+    min-height: 600px;
   }
