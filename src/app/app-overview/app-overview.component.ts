@@ -16,7 +16,7 @@ import { RouterModule } from '@angular/router';
             content. Adopt a better, simpler, and more custom component-driven
             approach to your angular application.
           </p>
-          <button mat-flat-button color="primary" class="large-button" [routerLink]="[]" fragment="features">Learn More</button>
+          <button mat-flat-button color="primary" class="large-button" (click)="scrollToFeatures()">Learn More</button>
         </div>
       </div>
       <div class="content-right">
@@ -29,5 +29,10 @@ import { RouterModule } from '@angular/router';
   styleUrls: ['../../styles.scss', './app-overview.component.scss']
 })
 export class AppOverviewComponent {
-
+  scrollToFeatures() {
+    const featuresElement = document.getElementById('features');
+    if (featuresElement) {
+      featuresElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 }
