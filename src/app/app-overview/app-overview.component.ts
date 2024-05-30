@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-overview',
   standalone: true,
-  imports: [MatButtonModule, MatCardModule],
+  imports: [MatButtonModule, MatCardModule, RouterModule],
   template: `
     <section class="overview-container">
       <div class="content-left">
@@ -15,7 +16,7 @@ import { MatCardModule } from '@angular/material/card';
             content. Adopt a better, simpler, and more custom component-driven
             approach to your angular application.
           </p>
-          <button mat-flat-button color="primary" class="large-button">Learn More</button>
+          <button mat-flat-button color="primary" class="large-button" [routerLink]="[]" fragment="features">Learn More</button>
         </div>
       </div>
       <div class="content-right">
