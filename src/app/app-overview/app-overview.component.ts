@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
-import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-overview',
   standalone: true,
-  imports: [MatButtonModule, MatCardModule, RouterModule],
+  imports: [MatButtonModule, MatCardModule],
   template: `
     <section class="overview-container">
       <div class="content-left">
