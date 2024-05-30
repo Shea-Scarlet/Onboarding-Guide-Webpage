@@ -53,6 +53,11 @@ import {
             [cardContentSubText]="designSubtext"
           />
         </div>
+        <div class="brinqa-logo">
+          <img src="../../assets/images/Brinqa_Logo.png" alt="empty">
+        </div>
+        <div class="ellipse_primary"></div>
+        <div class="ellipse_secondary"></div>
       </div>
     </section>
   `,
