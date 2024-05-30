@@ -39,10 +39,6 @@ $website-theme: mat.define-light-theme((
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-html, body h1 {
-  font-size: 32px;
-}
-
 .large-button {
   padding: 20px 28px !important;
   font-size: 16px !important;
