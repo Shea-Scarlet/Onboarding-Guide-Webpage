@@ -7,23 +7,24 @@ export interface Tile {
   cols: number;
   rows: number;
   text: string;
+  imageUrl: string;
 }
 @Component({
   selector: 'app-features',
   standalone: true,
   imports: [MatCardModule, MatButtonModule, MatGridListModule],
   templateUrl: './app-features.component.html',
-  styleUrl: './app-features.component.scss'
+  styleUrl: './app-features.component.scss',
 })
 export class AppFeaturesComponent {
   tiles: Tile[] = [
-    {text: 'One', cols: 3, rows: 6, color: 'lightblue'},
-    {text: 'Two', cols: 1, rows: 6, color: 'lightgreen'},
-    {text: 'Three', cols: 1, rows: 6, color: 'lightpink'},
-    {text: 'Four', cols: 3, rows: 6, color: '#DDBDF1'},
-    {text: 'Five', cols: 3, rows: 6, color: 'lightblue'},
-    {text: 'Six', cols: 1, rows: 6, color: 'lightgreen'},
-    {text: 'Seven', cols: 1, rows: 6, color: 'lightpink'},
-    {text: 'Eigth', cols: 3, rows: 6, color: '#DDBDF1'},
+    {text: '', cols: 1, rows: 1, color: 'white', imageUrl: '../../assets/images/asurion.png'},
+    {text: '', cols: 1, rows: 1, color: 'white', imageUrl: '../../assets/images/GIGAOM.png'},
+    {text: '', cols: 1, rows: 1, color: 'white', imageUrl: '../../assets/images/IDC.png'},
+    {text: '', cols: 1, rows: 1, color: 'white', imageUrl: '../../assets/images/Gartner.png'},
+    {text: '', cols: 1, rows: 1, color: 'white', imageUrl: '../../assets/images/Forrester.png'},
+    {text: '', cols: 1, rows: 1, color: 'white', imageUrl: '../../assets/images/BlackRock.png'},
+    {text: '', cols: 1, rows: 1, color: 'white', imageUrl: '../../assets/images/Nestle.png'},
+    {text: '', cols: 1, rows: 1, color: 'white', imageUrl: '../../assets/images/HYATT.png'},
   ];
 }
