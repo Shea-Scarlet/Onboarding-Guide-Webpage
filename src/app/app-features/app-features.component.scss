@@ -67,6 +67,7 @@
 .features-container h1 {
   font-size: 42px;
   line-height: normal;
+  margin: 0px;
 }
 
 .features-container {
@@ -101,4 +102,11 @@
 .header-text-container h1 {
   font-size: 42px;
   margin-top: 50px;
+}
+
+.features-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
