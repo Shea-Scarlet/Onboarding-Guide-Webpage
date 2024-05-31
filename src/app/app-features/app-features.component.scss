@@ -87,3 +87,18 @@
   max-width: 100%;
   height: auto;
 }
+
+.content-header {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.header-text-container h1 {
+  font-size: 42px;
+  margin-top: 50px;
+}
