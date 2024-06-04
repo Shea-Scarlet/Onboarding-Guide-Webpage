@@ -9,18 +9,17 @@ import { MatCardModule } from '@angular/material/card';
     <section class="overview-container">
       <div class="content-left">
         <div class="overview-texts">
-          <h1>Create a Dynamic Onboarding Guide for Customers</h1>
+          <h1>Create Dynamic Onboarding Guides for all your customers</h1>
           <p>
-            Stop drowning in a backlog of requests to create, edit, and manage
-            content. Adopt a better, simpler, and more custom component-driven
-            approach to your angular application.
+            Onboarding has never been easier! Create unique guides for each customer that fulfill
+            all their specific needs in a seemless and dynamic experience thanks to our editor!
           </p>
           <button mat-flat-button color="primary" class="large-button" (click)="scrollToFeatures()">Learn More</button>
         </div>
       </div>
       <div class="content-right">
         <mat-card class="image-card">
-          <img mat-card-image src="../../assets/images/OnboardingGuide.png" alt="Empty" >
+          <img mat-card-image src="../../assets/images/WelcomeEd.png" alt="Empty" >
         </mat-card>
       </div>
     </section>
